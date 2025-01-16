@@ -1,0 +1,16 @@
+The solution involves using more specific CSS selectors to target only the intended list elements.  This can be done with more precise class names or ID selectors or by using parent selectors to isolate the styling to only the specific lists.
+
+Here's the corrected CSS:
+
+```css
+/* bugSolution.css */
+ul#myList > li { /* Example with ID selector and parent selector*/
+  list-style-type: square;
+  color: blue;
+}
+ol.myOtherList li { /*Example with class selector*/
+  list-style-type: upper-roman;
+  color: green;
+}
+```
+This corrected code ensures that the styling is applied only to the specific list elements targeted, avoiding the unintended styling of other list items.
