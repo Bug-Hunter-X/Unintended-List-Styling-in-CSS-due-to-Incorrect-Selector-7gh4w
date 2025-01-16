@@ -1,0 +1,1 @@
+The following CSS code snippet intends to style a list, but it unintentionally applies the style to other list elements because of a missing or incorrectly placed selector. The list-style is accidentally affecting elements outside the intended ul or ol.
